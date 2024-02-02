@@ -1,29 +1,23 @@
-*{
-    box-sizing: border-box;
+* {
+    box-sizing:border-box;
     margin: 0;
     padding: 0;
 }
-div p {
-    color: #0000ff;
+.text-container {
+    width: 60vw;
+    height: vh;
+    margin: 0 auto;
 }
-
-h1  {
-    width: 300px;
-    height: 50px;
-    border-radius: 4px;
+.parent {
+    width: 30vw;
     background-color: bisque;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    border-radius: 40px;
+    padding: 20px;
 }
-
-footer {
-    width: 300px;
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: antiquewhite;
-    padding: 4px;
+.child {
+    position: relative;
+    width: 10vw;
+    background-color: aqua;
+    border-radius: 30px;
+    justify-content: center;
 }
