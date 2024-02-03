@@ -20,7 +20,36 @@ body {
 .box1 {
     background-color: blueviolet;
 }
+<<<<<<< HEAD
 .box2 {
+=======
+.text-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.section-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-right h1 {
+    margin-bottom: 35px;
+}
+.section-right img {
+    width: 25%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.section-right span {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.footer-container {
+>>>>>>> 545ea18f251db484e2a2135bee6e61bf5ed74a67
     background-color: blue;
 }
 .box3 {
