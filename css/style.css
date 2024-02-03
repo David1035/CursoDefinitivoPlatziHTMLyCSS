@@ -20,7 +20,6 @@ body {
 .box1 {
     background-color: blueviolet;
 }
-<<<<<<< HEAD
 .box2 {
     background-color: blue;
 }
@@ -35,37 +34,4 @@ body {
 }
 .box6 {
     background-color: turquoise;
-=======
-.text-container {
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.section-right {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.section-right h1 {
-    margin-bottom: 35px;
-}
-.section-right img {
-    width: 25%;
-    border-radius: 50%;
-    margin-bottom: 50px;
-}
-.section-right span {
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace;
-}
-.footer-container {
-    background-color: blue;
-    position: fixed;
-    width: 100%;
-    top: 94%;
-    height: 100%;
->>>>>>> 7c223c1964a79f6387280d8a6f84bc33476e3bab
 }
