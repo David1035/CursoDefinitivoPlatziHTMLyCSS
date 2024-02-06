@@ -42,4 +42,9 @@ html {
     height: 100%;
     object-fit: cover;
 }
-
+h1 {
+    font-size: 3rem;
+}
+p {
+    font-size: 2rem;
+}
